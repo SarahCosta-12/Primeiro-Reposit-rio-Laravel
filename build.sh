@@ -5,3 +5,4 @@ docker run --rm -i \
     -v $PWD:/app \
     -p 80:80 \
     composer:2.4.2 "$@"
+    
